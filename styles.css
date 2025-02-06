@@ -1,0 +1,81 @@
+
+
+.payment{
+    background-color: #ddd;
+    box-shadow: 3px 3px 3px;
+    text-align:center ;
+    
+}
+.card{
+width: 20%;
+padding: 10px;
+margin: 10px 0;
+border: 2px solid #ddd;
+border-radius: 8px;
+font-size: 16px;
+background-color: #f9f9f9;
+transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cvc{
+    width: 10%;
+padding: 10px;
+margin: 10px 0;
+border: 2px solid #ddd;
+border-radius: 8px;
+font-size: 16px;
+background-color: #f9f9f9;
+transition: border 0.3s ease, box-shadow 0.3s ease;
+
+.amount{
+
+    width: 25%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.pd{
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+
+}
+.city{
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+
+}
+}
+.button{         
+    background-color: #4CAF50; /* Color de fondo verde */
+        color: white; /* Texto blanco */
+        padding: 15px 32px; /* Espaciado interno */
+        font-size: 16px; /* Tamaño de fuente */
+        border: none; /* Sin borde */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cambia el cursor al pasar por encima */
+        transition: background-color 0.3s ease; 
+        position: flex;
+        justify-content:right;
+        box-shadow: 3px 3px 3px;
+
+}
+        .button:hover{           
+             background-color: #45a049
+        }
+        
