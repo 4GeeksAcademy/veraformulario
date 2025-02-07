@@ -33,11 +33,11 @@
 				  <div class="row mt-4">
 					<div class="col-sm-5 pb-3">
 						<label for="exampleAccount">Card #</label> 
-						<input class="form-control" id="exampleAccount" placeholder="XXXXXXXXXXXXXXXX" maxlength="12" pattern="{0-9}"type="number" required>
+						<input class="form-control" id="exampleAccount" placeholder="XXXXXXXXXXXXXXXX" maxlength="12" pattern="\d{12}"type="number" required>
 					</div>
 					<div class="col-sm-3 pb-3">
 						<label for="exampleCtrl">CVC #</label> 
-						<input class="form-control" id="exampleCtrl" placeholder="xxx"  maxlength="3" pattern="{0-9}"type="number" required>
+						<input class="form-control" id="exampleCtrl" placeholder="xxx"  maxlength="3" pattern="\d{3}"type="number" required>
 					</div>
 					<div class="col-sm-4 pb-3">
 						<label for="exampleAmount">Amount</label>
